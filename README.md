@@ -6,11 +6,11 @@ The Fire Danger Rating System (FDRS) is a forest/vegetation fire monitoring syst
 FDRS uses measured meteorological variables such as temperature, relative humidity, rainfall and wind speed collected from meteorological stations or remote sensing data.
 
 ## Requirement
-ArcGIS and python
+Tested works in ArcGIS Desktop 10.4.1
 
 ## How to use
 Add FDRS_tbx to local directory, and add FDRS.pyt from ArcGIS toolbox. 
-If you have timeseries data, you can run this tool [testFDRS.py](https://github.com/wfpidn/FDRS/blob/master/FDRS_tbx/testFDRS.py)
+If you don't want to use existing previous days data for FFMC, DMC and DC, then you can use initial value for FFMC: 85, DMC: 6 and DC: 15
 
 ## Data
 This toolbox required daily input data, there are few data example inside Data/Input folder. 
@@ -21,5 +21,5 @@ For example, the image for May 16, 2020 at 6AM UTC ~ 12PM WIB (UTC+7) is: http:/
 - **Wind Speed**: NOAA Global Forecast System. GRIB filter https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p25.pl (bit complicated). 
 
 ## Contact
-FDRS toolbox originally developed by [spatialexplore](https://github.com/spatialexplore) for WFP's activities with LAPAN.
-If you have any question related to FDRS tool and application in Indonesia, contact [bennyistanto](https://github.com/bennyistanto)
+FDRS toolbox originally developed by [Rochelle OHagan](https://github.com/spatialexplore) for WFP's activities with LAPAN.
+If you have any question related to FDRS tool and application in Indonesia, contact [Benny Istanto](https://github.com/bennyistanto)
